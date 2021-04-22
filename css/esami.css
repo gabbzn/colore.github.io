@@ -1,0 +1,277 @@
+.mh-290 {
+  max-height: 295px;
+  overflow: auto;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+}
+
+.mh-free {
+  overflow: auto;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+}
+
+/* Dispositivos grandes 992px e superior)  */
+@media only screen and (min-width: 768px) {
+  .hide-desktop {
+    display: none;
+  }
+
+  .esami {
+    padding-left: 60px;
+    padding-left: 6rem;
+    padding-right: 60px;
+    padding-right: 6rem;
+    background-color: #fefefe;
+  }
+
+  .esami h1 {
+    font-size: 3em;
+    padding: 20px 0px 10px 0px;
+    margin-top: 30px !important;
+  }
+
+  .titolo-mobile {
+    display: none;
+  }
+
+  .esami h2 {
+    font-size: 2em;
+    padding: 20px 0px 10px 0px;
+    color: #5c6bc0;
+    font-weight: 400;
+  }
+
+  .esami h3 {
+    font-size: 2em;
+    color: #5c6bc0;
+    font-weight: 400;
+    font-family: "lora";
+    font-style: oblique;
+  }
+
+  .esami .card h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .esami h5 {
+    font-weight: 600;
+    color: #757575;
+    text-decoration: underline;
+    font-family: "Lora";
+    margin-left: 30px;
+  }
+
+  .esami h6 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #757575;
+  }
+  .esami .card {
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .esami .card p {
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+  }
+  .esami .card a {
+    transition: 0.3s;
+    background-color: white;
+  }
+  .esami .card a:hover,
+  .esami .card a:focus {
+    color: #fefefe;
+    background-color: #5c6bc0;
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+
+  .esami-top-text {
+    display: none;
+  }
+}
+
+/* Dispositivos médios 767px e inferior)  */
+@media only screen and (max-width: 767px) {
+  .container-full {
+    padding: 0px;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+
+  .esami {
+    background-color: transparent;
+  }
+  .bg-mobile {
+    background-color: #fefefe;
+  }
+
+  .esami-2 > .row {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 30px;
+  }
+  .esami h1 {
+    display: none;
+  }
+  .titolo-mobile {
+    font-size: 2.5em;
+    padding: 20px 0px 10px 0px;
+    margin-top: 20px !important;
+    font-family: "montserrat";
+    text-align: center;
+    font-weight: 400;
+    color: #5c6bc0;
+  }
+
+  .titolo-mobile-2 {
+    font-size: 2em;
+    padding: 20px 0px 0px 0px;
+    color: #5c6bc0;
+    font-weight: 400;
+  }
+
+  .esami h2 {
+    font-size: 2em;
+    padding: 20px 0px 10px 0px;
+    color: #5c6bc0;
+    font-weight: 400;
+  }
+
+  .esami h3 {
+    font-size: 2em;
+    color: #5c6bc0;
+    font-weight: 400;
+    font-family: "lora";
+    font-style: oblique;
+  }
+
+  .esami h5 {
+    font-weight: 600;
+    color: #757575;
+    text-decoration: underline;
+    font-family: "Lora";
+    margin-left: 30px;
+  }
+
+  .consigli {
+    position: relative;
+    z-index: 5;
+    height: 310px;
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .consigli .bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../img/prest/intern/esami/esami-page/page/radiografia.png);
+    background-size: cover;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+  }
+
+  /*  cinza  rgb(218, 233, 242, 0.8) */
+
+  .esami h6 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 1.2;
+  }
+
+  .esami .card {
+    max-width: 80%;
+  }
+
+  .esami .card img {
+    width: 100%;
+  }
+  .esami .card h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .esami .card {
+    align-items: center;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+  }
+  .esami .card p {
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+  }
+  .esami .card a {
+    transition: 0.3s;
+    background-color: white;
+  }
+  .esami .card a:hover,
+  .esami .card a:focus {
+    color: #fefefe;
+    background-color: #5c6bc0;
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+}
+.p-tb {
+  padding: 30px 0px 30px 0px !important;
+}
+
+.logo-footer-page {
+  width: 100%;
+  align-items: right;
+}
+
+.logo-footer-page img {
+  width: 40px;
+  margin: 10px;
+  opacity: 0.5;
+}
+
+/* .logo-footer-page:after {
+  content: "";
+  display: inline-block;
+  width: 40%;
+  height: 1px;
+  background: #5c6bc0;
+  margin: 0px auto;
+  opacity: 0.5;
+}
+*/
+/* .logo-footer-page:before {
+  content: "";
+  display: inline-block;
+  width: 80%;
+  height: 1px;
+  background: #5c6bc0;
+  margin: 0px auto;
+  opacity: 0.5;
+} */
+
+/* Both */
+..plyr {
+  position: relative;
+  width: 100%;
+  min-width: 200px;
+  font-family: Avenir, "Montserrat", Helvetica, Arial, sans-serif;
+  direction: ltr;
+  margin-bottom: 20px !important;
+  margin-top: 20px !important;
+}
+
+.plyr--audio .plyr__controls button.tab-focus:focus,
+.plyr--audio .plyr__controls button:hover,
+.plyr__play-large {
+  background: #5c6bc0;
+  color: #fff;
+}
